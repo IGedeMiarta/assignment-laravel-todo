@@ -16,7 +16,6 @@ Ensure you have the following installed:
 
    ```bash
    git clone git@github.com:IGedeMiarta/assignment-laravel-todo.git
-   cd your-laravel-project
    ```
 **Install PHP Dependencies**: Run Composer to install dependencies:
 
