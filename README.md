@@ -29,14 +29,14 @@ Set Up Environment Variables: Copy `.env.example` to `.env`:
 Then, update `.env` with your settings:
 
    ```bash
-   APP_NAME="Your Application Name"
+   APP_NAME="ToDo App"
    APP_URL=http://localhost
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=your_database_name
-   DB_USERNAME=your_database_user
-   DB_PASSWORD=your_database_password
+   DB_DATABASE=database_name
+   DB_USERNAME=database_user
+   DB_PASSWORD=database_password
    ```
 
 **Generate App Key**: Create an application key for encryption:
