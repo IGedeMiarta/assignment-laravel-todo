@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\ToDoResource\Pages;
+namespace App\Filament\Resources\CategoryResource\Pages;
 
-use App\Filament\Resources\ToDoResource;
+use App\Filament\Resources\CategoryResource;
 use Filament\Actions;
 use Filament\Resources\Pages\EditRecord;
 
-class EditToDo extends EditRecord
+class EditCategory extends EditRecord
 {
-    protected static string $resource = ToDoResource::class;
+    protected static string $resource = CategoryResource::class;
 
     protected function getHeaderActions(): array
     {

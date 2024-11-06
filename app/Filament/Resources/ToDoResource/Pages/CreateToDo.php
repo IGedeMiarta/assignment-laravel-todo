@@ -9,4 +9,8 @@ use Filament\Resources\Pages\CreateRecord;
 class CreateToDo extends CreateRecord
 {
     protected static string $resource = ToDoResource::class;
+    protected function getRedirectUrl(): string
+    {
+        return $this->getResource()::getUrl('index');
+    }
 }
