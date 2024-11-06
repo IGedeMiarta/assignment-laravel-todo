@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use App\Models\ToDo;
 use Livewire\Component;
 
 class ToDoList extends Component
@@ -9,7 +10,7 @@ class ToDoList extends Component
     public $todos;
 
     public function mount() {
-        $this->todos = auth()->user()->todos;
+        $this->todos = ToDo::all();
     }
     
     public function render()

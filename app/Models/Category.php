@@ -10,4 +10,8 @@ class Category extends Model
     public function todos() {
         return $this->hasMany(ToDo::class);
     }
+    protected $hidden = [
+        'created_at',
+        'updated_at',
+    ];
 }
